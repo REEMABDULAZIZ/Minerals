@@ -1,0 +1,272 @@
+/*
+Project Name: Minerals
+Client: All of People
+Author: Razan Bin Nassif
+Developer @GA in NYC
+*/
+
+/********************Box Model Hack***********************/
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+  }
+   
+  /********************BASE STYLES***********************/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-size: 26px;
+    line-height: 1; 
+    color: #ffffff;
+    font-family: Franklin GothicMedium, Franklin Gothic Book, Gill Sans MT;
+    font-weight: 300;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  summary:hover{
+    color: #6C2C2C;
+  }
+
+  details p {
+    font-family: Comic Sans MS;
+    color: #2f3640;
+    width: 400px;
+  }
+  
+/*******************LAYOUT************************/
+
+header {
+    width: 1349px;
+    height: 654px;
+    background-color: rgba(173, 95, 95, 0.24); 
+  }
+  header h1 {
+    text-align: center;
+    padding-top: 300px;
+    font-family: Franklin Gothic Medium;
+    color: #FEFBFB;
+  }
+  a {
+    color:#2d3436;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+  }
+  a:hover {
+    color:#6C2C2C;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  ul {
+    float: right;
+    padding-right:30px;
+    padding-top: 230px;
+  }
+  li {
+    display: inline-block;
+    color: #6C2C2C;
+    padding-left: 20px;
+  }
+
+  #calcium-section {
+    width: 1349px;
+    height: 654px;
+    background-color: #E4CACA;
+    padding: 150px; 
+  }
+  .calcium-container {
+    padding-right: 20px;
+    float: right; 
+    width: 29%;
+    padding: 20px;
+    font-family: Franklin Gothic Book;  
+  }
+  .calcium-container p {
+    font-size: 20px;
+  }
+  summary {
+    color:#f1f2f6;
+    font-size: 15px;
+    font-display: Vrinda;
+    padding: 10px;
+    width: 400px;
+  }
+  .ca {
+    width: 70%;
+    float: left;
+    font-size: 250px;
+    height: 100px;
+  }
+
+  #magnesium-section {
+     width: 1349px;
+     height: 654px;
+     background-color: #DAB7B7;
+     padding: 150px; 
+  }
+  .magnesium-container {
+    float: left; 
+    width: 55%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+ }
+ .magnesium-container p {
+   font-size: 20px;
+ } 
+ .mg {
+    width: 44%;
+    float: right;
+    font-size: 250px;
+    height: 100px;
+ }
+
+  #sodium-section {
+    width: 1349px;
+    height: 654px;
+    background-color: #CFA2A2;
+    padding: 150px; 
+  }
+  .sodium-container {
+    float: right; 
+    width: 34%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+  }
+  .sodium-container p {
+    font-size: 20px;
+  }  
+  .na {
+    width: 65%;
+    float: left;
+    font-size: 250px;
+    height: 100px;
+  }
+
+  #potassium-section {
+    width: 1349px;
+    height: 654px;
+    background-color: #C89494;
+    padding: 150px; 
+  }
+  .potassium-container {
+    float: left; 
+    width: 65%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+ }
+ .potassium-container p {
+   font-size: 20px;
+ } 
+ .k {
+    width: 34%;
+    float: right;
+    font-size: 250px;
+    height: 100px;
+ }
+
+  #iron-section {
+    width: 1349px;
+    height: 654px;
+    background-color: #C18585;
+    padding: 150px; 
+  }
+  .iron-container {
+    float: right; 
+    width: 34%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+ }
+ .iron-container p {
+   font-size: 20px;
+ } 
+ .fe {
+    width: 65%;
+    float: left;
+    font-size: 250px;
+    height: 100px;
+ }
+
+  #copper-section {
+    width: 1349px;
+    height: 654px;
+    background-color: #B97777;
+    padding: 150px; 
+  }
+  .copper-container {
+    float: left; 
+    width: 55%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+ }
+ .copper-container p {
+   font-size: 20px;
+ } 
+ .cu {
+    width: 44%;
+    float: right;
+    font-size: 250px;
+    height: 100px;
+ }
+
+  #zinc-section {
+    width: 1349px;
+    height: 654px;
+    background-color: #B16767;
+    padding: 150px; 
+  }
+  .zinc-container {
+    float: right; 
+    width: 34%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+ }
+ .zinc-container p {
+   font-size: 19px;
+ } 
+ .zn {
+    width: 65%;
+    float: left;
+    font-size: 250px;
+    height: 100px;
+ }
+
+  #phosphorus-section {
+    width: 1349px;
+    height: 654px;
+    background-color: #AD5F5F;
+    padding: 150px; 
+  }
+  .phosphorus-container {
+    float: left; 
+    width: 65%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+ }
+ .phosphorus-container p {
+   font-size: 20px;
+ }
+ .p {
+    width: 34%;
+    float: right;
+    font-size: 250px;
+    height: 100px;
+ }
+
+footer {
+   width: 1349px;
+   height: 54px;
+   background-color: #6C2C2C;
+   text-align: center;
+   padding: 20px;
+   color: ivory;
+   font-family: Comic Sans MS; 
+   font-size: 30px; 
+}
+
+
+
+
